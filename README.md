@@ -12,5 +12,5 @@ Attached below is a screenshot of the deployed application. This is what greets 
 ![Screen Shot 2022-09-01 at 11 08 10 AM](https://user-images.githubusercontent.com/109489824/187983886-955bab13-f170-4247-942e-6a75643f4fb8.png)
 
 
-Linked below is the deployed application: 
+Linked here is the deployed application: 
 https://briggoh.github.io/Work-Day-Scheduler/
