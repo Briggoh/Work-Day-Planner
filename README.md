@@ -1,4 +1,4 @@
-# Work-Day-Planner
+# Work-Day-Scheduler
 
 For this project, I developed a simple application that allows a user to plan out their daily work schedule. When one enters the page, they are met with the full application. 
 
