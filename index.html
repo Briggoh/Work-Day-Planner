@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Link Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead description">A simple calendar app for scheduling your work day</p>
+      <!-- Date renders here -->
+      <p id="currentDate" class="lead"></p>
+    </header>
+    
+    <div class="container">
+      <!-- 9AM timeblock -->
+      <div class="row time-block">
+        <label for="calTime9" class="hour col-md-1">9 AM</label>
+        <textarea class="col-md-10" id="timeblock-9" type="text" name="timeblock-9"></textarea>
+        <button class="btn saveBtn col-12 col-md-1" id="btn-9"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 10AM timeblock -->
+      <div class="row time-block">
+        <label for="calTime10" class="hour col-md-1">10 AM</label>
+        <textarea class="col-md-10" id="timeblock-10" type="text" name="timeblock-10"></textarea>
+        <button class="btn saveBtn col-12 col-md-1" id="btn-10"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 11AM timeblock -->
+      <div class="row time-block">
+        <label for="calTime11" class="hour col-md-1">11 AM</label>
+        <textarea class="col-md-10" id="timeblock-11" type="text" name="timeblock-11"></textarea>
+        <button class="btn saveBtn col-12 col-md-1" id="btn-11"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 12PM timeblock -->
+      <div class="row time-block">
+        <label for="calTime12" class="hour col-md-1">12 PM</label>
+        <textarea class="col-md-10" id="timeblock-12" type="text" name="timeblock-12"></textarea>
+        <button class="btn saveBtn col-12 col-md-1" id="btn-12"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 1PM timeblock -->
+      <div class="row time-block">
+        <label for="calTime13" class="hour col-md-1">1 PM</label>
+        <textarea class="col-md-10" id="timeblock-13" type="text" name="timeblock-13"></textarea>
+        <button class="btn saveBtn col-12 col-md-1" id="btn-13"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 2PM timeblock -->
+      <div class="row time-block">
+        <label for="calTime14" class="hour col-md-1">2 PM</label>
+        <textarea class="col-md-10" id="timeblock-14" type="text" name="timeblock-14"></textarea>
+        <button class="btn saveBtn col-12 col-md-1" id="btn-14"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 3PM timeblock -->
+      <div class="row time-block">
+        <label for="calTime15" class="hour col-md-1">3 PM</label>
+        <textarea class="col-md-10" id="timeblock-15" type="text" name="timeblock-15"></textarea>
+        <button class="btn saveBtn col-12 col-md-1" id="btn-15"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 4PM timeblock -->
+      <div class="row time-block">
+        <label for="calTime16" class="hour col-md-1">4 PM</label>
+        <textarea class="col-md-10" id="timeblock-16" type="text" name="timeblock-16"></textarea>
+        <button class="btn saveBtn col-12 col-md-1" id="btn-16"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 5PM timeblock -->
+      <div class="row time-block">
+        <label for="calTime17" class="hour col-md-1">5 PM</label>
+        <textarea class="col-md-10" id="timeblock-17" type="text" name="timeblock-17"></textarea>
+        <button class="btn saveBtn col-12 col-md-1" id="btn-17"><i class="fas fa-save"></i></button>
+      </div>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--Moment library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!-- JS library -->
+    <script src="./assets/js/app.js"></script>
+
+  </body>
+</html>
