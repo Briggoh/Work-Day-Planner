@@ -13,3 +13,4 @@ Attached below is a screenshot of the deployed application. This is what greets 
 
 
 Linked below is the deployed application: 
+https://briggoh.github.io/Work-Day-Scheduler/
